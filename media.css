@@ -1,0 +1,36 @@
+@media(max-width:700px){
+    nav{
+        display:none;
+        flex-direction:column;
+        background:#333;
+        padding:2rem;
+        cursor:pointer;
+        /* align-items:left;
+        flex-direction:start;
+        padding-top:20px; */
+    }
+     .li {
+        padding:180px auto;
+    }
+
+    #menu-toggle:checked +.menu-icon + nav {
+        display:block;
+    }
+    .menu-icon{
+        display:block;
+        float:left;
+    }
+    .hero{
+        flex-direction:column;
+    }
+    .cards{
+        flex-direction:column;
+    }
+    footer{
+        flex-direction:column;
+        margin-top:30px;
+    }
+    footer p{
+        padding:30px;
+    }
+}
